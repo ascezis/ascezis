@@ -17,6 +17,8 @@ I build Telegram bots, backends and automation that work with real data, and dep
 
 ### Selected work
 
+**[krab](https://github.com/ascezis/krab)**: zero-knowledge local encrypted secrets vault in Rust. Protects passwords, notes and tokens in a single encrypted file (`XChaCha20-Poly1305` AEAD with 24-byte nonce, `Argon2id` key derivation, atomic file writes with `fsync`, and memory zeroization via `zeroize`). Built with a modular core library (47 integration tests) and an interactive CLI with automated KDF calibration.
+
 **[vkat_py](https://github.com/ascezis/vkat_py)**: offline Python trainer for a programming school. Students who join a course late have to catch up with the group; vkat_py lets them practise at their own pace and checks every solution by actually running it. Real Python in the browser (Pyodide / WebAssembly), no internet required. In production; 30+ students have used it in real classes. Vanilla JavaScript, no build step.
 
 **[asc_prod_bot](https://github.com/ascezis/asc_prod_bot)**: Telegram bot that takes video-editing orders end to end. It validates the request, has an AI model assess budget, timeline and risks, notifies the admin and stores everything in PostgreSQL. Comes with a React admin panel and an Electron launcher.
@@ -39,11 +41,11 @@ Also: [BeholderEyes](https://github.com/ascezis/BeholderEyes), a desktop toolkit
 
 ### Stack
 
-- **Backend:** Python, aiogram, FastAPI, SQLAlchemy, PostgreSQL, aiohttp
+- **Systems and backend:** Rust, Python, aiogram, FastAPI, SQLAlchemy, PostgreSQL, aiohttp
 - **Automation:** n8n, parsers, AI API integrations
 - **Frontend and desktop:** JavaScript, TypeScript, React, Electron
 - **Mobile:** Dart, Flutter
-- **Infrastructure and security:** Debian, Docker, Docker Compose, Portainer, Tailscale, CrowdSec, SSH hardening, Argon2id, SQLCipher
+- **Infrastructure and security:** Debian, Docker, Docker Compose, Portainer, Tailscale, CrowdSec, SSH hardening, Argon2id, XChaCha20-Poly1305, SQLCipher
 
 ### Contact
 
@@ -63,6 +65,8 @@ Telegram: [@crackedmachines](https://t.me/crackedmachines). In your first messag
 - **Безопасный деплой.** Укреплённый VPS, у которого панели управления не выставлены в публичный интернет: закрытый доступ через Tailscale, вход по SSH-ключам и защита от вторжений CrowdSec.
 
 ### Избранные работы
+
+**[krab](https://github.com/ascezis/krab)**: локальное зашифрованное хранилище секретов на Rust. Хранит пароли, заметки и токены в едином зашифрованном файле (`XChaCha20-Poly1305` AEAD с 24-байтовым nonce, вывод ключа через `Argon2id`, атомарная перезапись через `fsync` и затирание памяти `zeroize`). Архитектура разделена на ядро библиотеки с 47 тестами и интерактивный CLI с автокалибровкой KDF.
 
 **[vkat_py](https://github.com/ascezis/vkat_py)**: офлайн-тренажёр по Python для школы программирования. Ученик, который пришёл в группу позже остальных, может догнать программу в своём темпе, а каждое решение проверяется реальным запуском кода. Настоящий Python работает прямо в браузере (Pyodide / WebAssembly) и не требует интернета. Проект в эксплуатации: на занятиях его опробовали более 30 учеников. Чистый JavaScript, без сборки.
 
@@ -86,11 +90,11 @@ Telegram: [@crackedmachines](https://t.me/crackedmachines). In your first messag
 
 ### Стек
 
-- **Бэкенд:** Python, aiogram, FastAPI, SQLAlchemy, PostgreSQL, aiohttp
+- **Системная разработка и бэкенд:** Rust, Python, aiogram, FastAPI, SQLAlchemy, PostgreSQL, aiohttp
 - **Автоматизация:** n8n, парсеры, интеграции с AI API
 - **Фронтенд и десктоп:** JavaScript, TypeScript, React, Electron
 - **Мобильная разработка:** Dart, Flutter
-- **Инфраструктура и безопасность:** Debian, Docker, Docker Compose, Portainer, Tailscale, CrowdSec, харденинг SSH, Argon2id, SQLCipher
+- **Инфраструктура и безопасность:** Debian, Docker, Docker Compose, Portainer, Tailscale, CrowdSec, харденинг SSH, Argon2id, XChaCha20-Poly1305, SQLCipher
 
 ### Связь
 
