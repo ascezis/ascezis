@@ -1,11 +1,5 @@
 # Pavel
 
-[English](#english) · [Русский](#русский)
-
----
-
-## English
-
 I build Telegram bots, backends and automation that work with real data, and deploy them on infrastructure that is closed to the public internet. Open to freelance projects.
 
 ### What I can do for you
@@ -53,7 +47,9 @@ Telegram: [@crackedmachines](https://t.me/crackedmachines). In your first messag
 
 ---
 
-## Русский
+<details>
+<summary><b>🇷🇺 Версия на русском языке (нажмите, чтобы развернуть)</b></summary>
+<br>
 
 Делаю Telegram-ботов, бэкенды и автоматизацию, которые работают с реальными данными, и разворачиваю их на инфраструктуре, закрытой от публичного интернета. Открыт для заказов.
 
@@ -99,3 +95,5 @@ Telegram: [@crackedmachines](https://t.me/crackedmachines). In your first messag
 ### Связь
 
 Telegram: [@crackedmachines](https://t.me/crackedmachines). В первом сообщении, пожалуйста, напишите, что нужно сделать, желаемые сроки и примерный бюджет.
+
+</details>
